@@ -1,5 +1,5 @@
 {
-  "id": "5e0bce6b-e088-4b1e-87cc-de4ce1624374",
+  "id": "746ac91b-bc80-4cf7-a4c8-3879c442f46e",
   "name": "stugram_environment",
   "values": [
     {
@@ -14,6 +14,6 @@
     }
   ],
   "_postman_variable_scope": "environment",
-  "_postman_exported_at": "2023-12-25T11:27:43.073Z",
+  "_postman_exported_at": "2023-12-25T14:22:13.086Z",
   "_postman_exported_using": "Postman"
 }

@@ -15,4 +15,8 @@ router.route('/forgot-password').post(authController.forgotPassword);
 router.route('/validate-otp').post(authController.validateResetPasswordOtp);
 router.route('/reset-password').put(authController.resetPassword);
 router.route('/logout').post(auth(PLATFORM.DEVICE), authController.logout);
+router.get('/login/google',(req,res)=>{
+  req.session.platform = 'device';
+  res.redirect(`http://localhost:${process.env.PORT}/auth/google`);
+});       
 module.exports = router;

@@ -1,7 +1,7 @@
 {
   "info": {
     "name": "stugram",
-    "_postman_id": "33a7892f-e16a-4fad-9f1c-477c67d25357",
+    "_postman_id": "47716e28-d4a5-441d-8279-7970d2f76e5d",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
   },
   "item": [
@@ -50,7 +50,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"title\": \"Shirt\",\n    \"description\": \"content\",\n    \"totalQuestionCount\": 800,\n    \"addedQuestionCount\": 398,\n    \"id\": \"6589672f4370a03486c67dd2\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-03-26T08:44:53.849Z\",\n    \"updatedAt\": \"2024-08-28T20:29:12.010Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"title\": \"open-source\",\n    \"description\": \"actuating\",\n    \"totalQuestionCount\": 806,\n    \"addedQuestionCount\": 529,\n    \"id\": \"6589901572a1003558bd8c2e\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-01-12T22:50:23.732Z\",\n    \"updatedAt\": \"2024-06-01T18:51:13.521Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -76,7 +76,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"title\": \"Shirt\",\n  \"description\": \"content\",\n  \"totalQuestionCount\": 800,\n  \"addedQuestionCount\": 398\n}"
+                  "raw": "{\n  \"title\": \"open-source\",\n  \"description\": \"actuating\",\n  \"totalQuestionCount\": 806,\n  \"addedQuestionCount\": 529\n}"
                 },
                 "description": "",
                 "auth": {
@@ -99,7 +99,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"title\": \"Shirt\",\n    \"description\": \"content\",\n    \"totalQuestionCount\": 800,\n    \"addedQuestionCount\": 398,\n    \"id\": \"6589672f4370a03486c67dcf\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-03-26T08:44:53.849Z\",\n    \"updatedAt\": \"2024-08-28T20:29:12.010Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"title\": \"open-source\",\n    \"description\": \"actuating\",\n    \"totalQuestionCount\": 806,\n    \"addedQuestionCount\": 529,\n    \"id\": \"6589901572a1003558bd8c2b\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-01-12T22:50:23.732Z\",\n    \"updatedAt\": \"2024-06-01T18:51:13.521Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -125,7 +125,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"title\": \"Shirt\",\n      \"description\": \"content\",\n      \"totalQuestionCount\": 800,\n      \"addedQuestionCount\": 398\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"title\": \"open-source\",\n      \"description\": \"actuating\",\n      \"totalQuestionCount\": 806,\n      \"addedQuestionCount\": 529\n    }\n  ]\n}"
                 },
                 "description": "",
                 "auth": {
@@ -197,7 +197,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"title\": \"Shirt\",\n        \"description\": \"content\",\n        \"totalQuestionCount\": 800,\n        \"addedQuestionCount\": 398,\n        \"id\": \"6589672f4370a03486c67dd1\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-03-26T08:44:53.849Z\",\n        \"updatedAt\": \"2024-08-28T20:29:12.010Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"title\": \"open-source\",\n        \"description\": \"actuating\",\n        \"totalQuestionCount\": 806,\n        \"addedQuestionCount\": 529,\n        \"id\": \"6589901572a1003558bd8c2d\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-01-12T22:50:23.732Z\",\n        \"updatedAt\": \"2024-06-01T18:51:13.521Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -321,7 +321,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"title\": \"Shirt\",\n  \"description\": \"content\",\n  \"totalQuestionCount\": 800,\n  \"addedQuestionCount\": 398\n}"
+                  "raw": "{\n  \"title\": \"open-source\",\n  \"description\": \"actuating\",\n  \"totalQuestionCount\": 806,\n  \"addedQuestionCount\": 529\n}"
                 },
                 "description": "",
                 "auth": {
@@ -344,7 +344,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"title\": \"Shirt\",\n    \"description\": \"content\",\n    \"totalQuestionCount\": 800,\n    \"addedQuestionCount\": 398,\n    \"id\": \"6589672f4370a03486c67dd3\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-03-26T08:44:53.849Z\",\n    \"updatedAt\": \"2024-08-28T20:29:12.010Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"title\": \"open-source\",\n    \"description\": \"actuating\",\n    \"totalQuestionCount\": 806,\n    \"addedQuestionCount\": 529,\n    \"id\": \"6589901572a1003558bd8c2f\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-01-12T22:50:23.732Z\",\n    \"updatedAt\": \"2024-06-01T18:51:13.521Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -393,7 +393,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"title\": \"Shirt\",\n    \"description\": \"content\",\n    \"totalQuestionCount\": 800,\n    \"addedQuestionCount\": 398,\n    \"id\": \"6589672f4370a03486c67dd4\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-03-26T08:44:53.849Z\",\n    \"updatedAt\": \"2024-08-28T20:29:12.010Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"title\": \"open-source\",\n    \"description\": \"actuating\",\n    \"totalQuestionCount\": 806,\n    \"addedQuestionCount\": 529,\n    \"id\": \"6589901572a1003558bd8c30\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-01-12T22:50:23.732Z\",\n    \"updatedAt\": \"2024-06-01T18:51:13.521Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -675,6 +675,55 @@
                 }
               ],
               "_postman_isSubFolder": true
+            },
+            {
+              "name": "Get Presigned Url for S3 private Upload",
+              "request": {
+                "url": "{{url}}/admin/generate-pre-signed-url",
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "description": ""
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{token}}",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"uri\": \"s3 URL\"\n}"
+                },
+                "description": "",
+                "auth": {}
+              },
+              "response": [
+                {
+                  "name": "Get Presigned Url for S3 private Upload",
+                  "originalRequest": {
+                    "method": "POST",
+                    "header": [],
+                    "url": {
+                      "raw": "{{url}}/admin/generate-pre-signed-url"
+                    }
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "_postman_previewlanguage": "json",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": [\n    {\n      \"status\": true,\n      \"path\": \"URL to access file\"\n    }\n  ]\n}",
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "cookie": []
+                }
+              ],
+              "_postman_isSubFolder": true
             }
           ]
         },
@@ -719,7 +768,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"title\": \"Codes\",\n    \"alternativeHeadline\": \"Checking\",\n    \"image\": \"Investment\",\n    \"publishDate\": \"system\",\n    \"author\": {\n      \"name\": \"Eunice Fay\",\n      \"image\": \"solution\",\n      \"email\": \"Jefferey82@gmail.com\"\n    },\n    \"publisher\": {\n      \"name\": \"Gilberto Swaniawski PhD\",\n      \"url\": \"XML\",\n      \"logo\": \"Massachusetts\"\n    },\n    \"articleSection\": \"of\",\n    \"articleBody\": \"Generic\",\n    \"description\": \"Creek\",\n    \"slug\": \"Chief\",\n    \"url\": \"Steel\",\n    \"isDraft\": true,\n    \"id\": \"6589672f4370a03486c67ddc\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-03-12T13:13:00.557Z\",\n    \"updatedAt\": \"2024-02-08T01:42:32.321Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"title\": \"plug-and-play\",\n    \"alternativeHeadline\": \"optical\",\n    \"image\": \"Account\",\n    \"publishDate\": \"compressing\",\n    \"author\": {\n      \"name\": \"Kerry Brown\",\n      \"image\": \"Buckinghamshire\",\n      \"email\": \"Immanuel_Tromp73@hotmail.com\"\n    },\n    \"publisher\": {\n      \"name\": \"Christine Hyatt\",\n      \"url\": \"IB\",\n      \"logo\": \"Response\"\n    },\n    \"articleSection\": \"Senegal\",\n    \"articleBody\": \"Generic\",\n    \"description\": \"embrace\",\n    \"slug\": \"white\",\n    \"url\": \"technologies\",\n    \"isDraft\": false,\n    \"id\": \"6589901572a1003558bd8c38\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-02-23T07:15:55.993Z\",\n    \"updatedAt\": \"2024-09-02T01:18:16.301Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -745,7 +794,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"title\": \"Codes\",\n  \"alternativeHeadline\": \"Checking\",\n  \"image\": \"Investment\",\n  \"publishDate\": \"system\",\n  \"author\": {\n    \"name\": \"Eunice Fay\",\n    \"image\": \"solution\",\n    \"email\": \"Jefferey82@gmail.com\"\n  },\n  \"publisher\": {\n    \"name\": \"Gilberto Swaniawski PhD\",\n    \"url\": \"XML\",\n    \"logo\": \"Massachusetts\"\n  },\n  \"articleSection\": \"of\",\n  \"articleBody\": \"Generic\",\n  \"description\": \"Creek\",\n  \"slug\": \"Chief\",\n  \"url\": \"Steel\",\n  \"isDraft\": true\n}"
+                  "raw": "{\n  \"title\": \"plug-and-play\",\n  \"alternativeHeadline\": \"optical\",\n  \"image\": \"Account\",\n  \"publishDate\": \"compressing\",\n  \"author\": {\n    \"name\": \"Kerry Brown\",\n    \"image\": \"Buckinghamshire\",\n    \"email\": \"Immanuel_Tromp73@hotmail.com\"\n  },\n  \"publisher\": {\n    \"name\": \"Christine Hyatt\",\n    \"url\": \"IB\",\n    \"logo\": \"Response\"\n  },\n  \"articleSection\": \"Senegal\",\n  \"articleBody\": \"Generic\",\n  \"description\": \"embrace\",\n  \"slug\": \"white\",\n  \"url\": \"technologies\",\n  \"isDraft\": false\n}"
                 },
                 "description": "",
                 "auth": {
@@ -768,7 +817,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"title\": \"Codes\",\n    \"alternativeHeadline\": \"Checking\",\n    \"image\": \"Investment\",\n    \"publishDate\": \"system\",\n    \"author\": {\n      \"name\": \"Eunice Fay\",\n      \"image\": \"solution\",\n      \"email\": \"Jefferey82@gmail.com\"\n    },\n    \"publisher\": {\n      \"name\": \"Gilberto Swaniawski PhD\",\n      \"url\": \"XML\",\n      \"logo\": \"Massachusetts\"\n    },\n    \"articleSection\": \"of\",\n    \"articleBody\": \"Generic\",\n    \"description\": \"Creek\",\n    \"slug\": \"Chief\",\n    \"url\": \"Steel\",\n    \"isDraft\": true,\n    \"id\": \"6589672f4370a03486c67dd9\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-03-12T13:13:00.557Z\",\n    \"updatedAt\": \"2024-02-08T01:42:32.321Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"title\": \"plug-and-play\",\n    \"alternativeHeadline\": \"optical\",\n    \"image\": \"Account\",\n    \"publishDate\": \"compressing\",\n    \"author\": {\n      \"name\": \"Kerry Brown\",\n      \"image\": \"Buckinghamshire\",\n      \"email\": \"Immanuel_Tromp73@hotmail.com\"\n    },\n    \"publisher\": {\n      \"name\": \"Christine Hyatt\",\n      \"url\": \"IB\",\n      \"logo\": \"Response\"\n    },\n    \"articleSection\": \"Senegal\",\n    \"articleBody\": \"Generic\",\n    \"description\": \"embrace\",\n    \"slug\": \"white\",\n    \"url\": \"technologies\",\n    \"isDraft\": false,\n    \"id\": \"6589901572a1003558bd8c35\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-02-23T07:15:55.993Z\",\n    \"updatedAt\": \"2024-09-02T01:18:16.301Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -794,7 +843,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"title\": \"Codes\",\n      \"alternativeHeadline\": \"Checking\",\n      \"image\": \"Investment\",\n      \"publishDate\": \"system\",\n      \"author\": {\n        \"name\": \"Eunice Fay\",\n        \"image\": \"solution\",\n        \"email\": \"Jefferey82@gmail.com\"\n      },\n      \"publisher\": {\n        \"name\": \"Gilberto Swaniawski PhD\",\n        \"url\": \"XML\",\n        \"logo\": \"Massachusetts\"\n      },\n      \"articleSection\": \"of\",\n      \"articleBody\": \"Generic\",\n      \"description\": \"Creek\",\n      \"slug\": \"Chief\",\n      \"url\": \"Steel\",\n      \"isDraft\": true\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"title\": \"plug-and-play\",\n      \"alternativeHeadline\": \"optical\",\n      \"image\": \"Account\",\n      \"publishDate\": \"compressing\",\n      \"author\": {\n        \"name\": \"Kerry Brown\",\n        \"image\": \"Buckinghamshire\",\n        \"email\": \"Immanuel_Tromp73@hotmail.com\"\n      },\n      \"publisher\": {\n        \"name\": \"Christine Hyatt\",\n        \"url\": \"IB\",\n        \"logo\": \"Response\"\n      },\n      \"articleSection\": \"Senegal\",\n      \"articleBody\": \"Generic\",\n      \"description\": \"embrace\",\n      \"slug\": \"white\",\n      \"url\": \"technologies\",\n      \"isDraft\": false\n    }\n  ]\n}"
                 },
                 "description": "",
                 "auth": {
@@ -866,7 +915,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"title\": \"Codes\",\n        \"alternativeHeadline\": \"Checking\",\n        \"image\": \"Investment\",\n        \"publishDate\": \"system\",\n        \"author\": {\n          \"name\": \"Eunice Fay\",\n          \"image\": \"solution\",\n          \"email\": \"Jefferey82@gmail.com\"\n        },\n        \"publisher\": {\n          \"name\": \"Gilberto Swaniawski PhD\",\n          \"url\": \"XML\",\n          \"logo\": \"Massachusetts\"\n        },\n        \"articleSection\": \"of\",\n        \"articleBody\": \"Generic\",\n        \"description\": \"Creek\",\n        \"slug\": \"Chief\",\n        \"url\": \"Steel\",\n        \"isDraft\": true,\n        \"id\": \"6589672f4370a03486c67ddb\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-03-12T13:13:00.557Z\",\n        \"updatedAt\": \"2024-02-08T01:42:32.321Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"title\": \"plug-and-play\",\n        \"alternativeHeadline\": \"optical\",\n        \"image\": \"Account\",\n        \"publishDate\": \"compressing\",\n        \"author\": {\n          \"name\": \"Kerry Brown\",\n          \"image\": \"Buckinghamshire\",\n          \"email\": \"Immanuel_Tromp73@hotmail.com\"\n        },\n        \"publisher\": {\n          \"name\": \"Christine Hyatt\",\n          \"url\": \"IB\",\n          \"logo\": \"Response\"\n        },\n        \"articleSection\": \"Senegal\",\n        \"articleBody\": \"Generic\",\n        \"description\": \"embrace\",\n        \"slug\": \"white\",\n        \"url\": \"technologies\",\n        \"isDraft\": false,\n        \"id\": \"6589901572a1003558bd8c37\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-02-23T07:15:55.993Z\",\n        \"updatedAt\": \"2024-09-02T01:18:16.301Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -990,7 +1039,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"title\": \"Codes\",\n  \"alternativeHeadline\": \"Checking\",\n  \"image\": \"Investment\",\n  \"publishDate\": \"system\",\n  \"author\": {\n    \"name\": \"Eunice Fay\",\n    \"image\": \"solution\",\n    \"email\": \"Jefferey82@gmail.com\"\n  },\n  \"publisher\": {\n    \"name\": \"Gilberto Swaniawski PhD\",\n    \"url\": \"XML\",\n    \"logo\": \"Massachusetts\"\n  },\n  \"articleSection\": \"of\",\n  \"articleBody\": \"Generic\",\n  \"description\": \"Creek\",\n  \"slug\": \"Chief\",\n  \"url\": \"Steel\",\n  \"isDraft\": true\n}"
+                  "raw": "{\n  \"title\": \"plug-and-play\",\n  \"alternativeHeadline\": \"optical\",\n  \"image\": \"Account\",\n  \"publishDate\": \"compressing\",\n  \"author\": {\n    \"name\": \"Kerry Brown\",\n    \"image\": \"Buckinghamshire\",\n    \"email\": \"Immanuel_Tromp73@hotmail.com\"\n  },\n  \"publisher\": {\n    \"name\": \"Christine Hyatt\",\n    \"url\": \"IB\",\n    \"logo\": \"Response\"\n  },\n  \"articleSection\": \"Senegal\",\n  \"articleBody\": \"Generic\",\n  \"description\": \"embrace\",\n  \"slug\": \"white\",\n  \"url\": \"technologies\",\n  \"isDraft\": false\n}"
                 },
                 "description": "",
                 "auth": {
@@ -1013,7 +1062,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"title\": \"Codes\",\n    \"alternativeHeadline\": \"Checking\",\n    \"image\": \"Investment\",\n    \"publishDate\": \"system\",\n    \"author\": {\n      \"name\": \"Eunice Fay\",\n      \"image\": \"solution\",\n      \"email\": \"Jefferey82@gmail.com\"\n    },\n    \"publisher\": {\n      \"name\": \"Gilberto Swaniawski PhD\",\n      \"url\": \"XML\",\n      \"logo\": \"Massachusetts\"\n    },\n    \"articleSection\": \"of\",\n    \"articleBody\": \"Generic\",\n    \"description\": \"Creek\",\n    \"slug\": \"Chief\",\n    \"url\": \"Steel\",\n    \"isDraft\": true,\n    \"id\": \"6589672f4370a03486c67ddd\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-03-12T13:13:00.557Z\",\n    \"updatedAt\": \"2024-02-08T01:42:32.321Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"title\": \"plug-and-play\",\n    \"alternativeHeadline\": \"optical\",\n    \"image\": \"Account\",\n    \"publishDate\": \"compressing\",\n    \"author\": {\n      \"name\": \"Kerry Brown\",\n      \"image\": \"Buckinghamshire\",\n      \"email\": \"Immanuel_Tromp73@hotmail.com\"\n    },\n    \"publisher\": {\n      \"name\": \"Christine Hyatt\",\n      \"url\": \"IB\",\n      \"logo\": \"Response\"\n    },\n    \"articleSection\": \"Senegal\",\n    \"articleBody\": \"Generic\",\n    \"description\": \"embrace\",\n    \"slug\": \"white\",\n    \"url\": \"technologies\",\n    \"isDraft\": false,\n    \"id\": \"6589901572a1003558bd8c39\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-02-23T07:15:55.993Z\",\n    \"updatedAt\": \"2024-09-02T01:18:16.301Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -1062,7 +1111,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"title\": \"Codes\",\n    \"alternativeHeadline\": \"Checking\",\n    \"image\": \"Investment\",\n    \"publishDate\": \"system\",\n    \"author\": {\n      \"name\": \"Eunice Fay\",\n      \"image\": \"solution\",\n      \"email\": \"Jefferey82@gmail.com\"\n    },\n    \"publisher\": {\n      \"name\": \"Gilberto Swaniawski PhD\",\n      \"url\": \"XML\",\n      \"logo\": \"Massachusetts\"\n    },\n    \"articleSection\": \"of\",\n    \"articleBody\": \"Generic\",\n    \"description\": \"Creek\",\n    \"slug\": \"Chief\",\n    \"url\": \"Steel\",\n    \"isDraft\": true,\n    \"id\": \"6589672f4370a03486c67dde\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-03-12T13:13:00.557Z\",\n    \"updatedAt\": \"2024-02-08T01:42:32.321Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"title\": \"plug-and-play\",\n    \"alternativeHeadline\": \"optical\",\n    \"image\": \"Account\",\n    \"publishDate\": \"compressing\",\n    \"author\": {\n      \"name\": \"Kerry Brown\",\n      \"image\": \"Buckinghamshire\",\n      \"email\": \"Immanuel_Tromp73@hotmail.com\"\n    },\n    \"publisher\": {\n      \"name\": \"Christine Hyatt\",\n      \"url\": \"IB\",\n      \"logo\": \"Response\"\n    },\n    \"articleSection\": \"Senegal\",\n    \"articleBody\": \"Generic\",\n    \"description\": \"embrace\",\n    \"slug\": \"white\",\n    \"url\": \"technologies\",\n    \"isDraft\": false,\n    \"id\": \"6589901572a1003558bd8c3a\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-02-23T07:15:55.993Z\",\n    \"updatedAt\": \"2024-09-02T01:18:16.301Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -1313,7 +1362,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Tyra_Bernier\",\n    \"email\": \"Era_McDermott23@yahoo.com\",\n    \"name\": \"Luis Sipes\",\n    \"mobileNo\": \"(612) 340-2061\",\n    \"userType\": 1,\n    \"id\": \"6589672f4370a03486c67deb\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-03-02T08:58:21.884Z\",\n    \"updatedAt\": \"2024-05-29T22:47:51.493Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Gilberto19\",\n    \"email\": \"Maximillian.Reichel49@yahoo.com\",\n    \"name\": \"Annie Pouros\",\n    \"mobileNo\": \"(613) 434-3063\",\n    \"userType\": 1,\n    \"id\": \"6589901572a1003558bd8c47\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-01-11T07:05:24.481Z\",\n    \"updatedAt\": \"2024-04-13T16:14:06.511Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -1362,7 +1411,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Tyra_Bernier\",\n    \"email\": \"Era_McDermott23@yahoo.com\",\n    \"name\": \"Luis Sipes\",\n    \"mobileNo\": \"(612) 340-2061\",\n    \"userType\": 1,\n    \"id\": \"6589672f4370a03486c67df0\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-03-02T08:58:21.884Z\",\n    \"updatedAt\": \"2024-05-29T22:47:51.493Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Gilberto19\",\n    \"email\": \"Maximillian.Reichel49@yahoo.com\",\n    \"name\": \"Annie Pouros\",\n    \"mobileNo\": \"(613) 434-3063\",\n    \"userType\": 1,\n    \"id\": \"6589901572a1003558bd8c4c\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-01-11T07:05:24.481Z\",\n    \"updatedAt\": \"2024-04-13T16:14:06.511Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -1388,7 +1437,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Tyra_Bernier\",\n  \"password\": \"X2NI_4aA2zDADsY\",\n  \"email\": \"Era_McDermott23@yahoo.com\",\n  \"name\": \"Luis Sipes\",\n  \"mobileNo\": \"(612) 340-2061\",\n  \"userType\": 1\n}"
+                  "raw": "{\n  \"username\": \"Gilberto19\",\n  \"password\": \"faRuZj75R1OZrM5\",\n  \"email\": \"Maximillian.Reichel49@yahoo.com\",\n  \"name\": \"Annie Pouros\",\n  \"mobileNo\": \"(613) 434-3063\",\n  \"userType\": 1\n}"
                 },
                 "description": "",
                 "auth": {
@@ -1411,7 +1460,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Tyra_Bernier\",\n    \"email\": \"Era_McDermott23@yahoo.com\",\n    \"name\": \"Luis Sipes\",\n    \"mobileNo\": \"(612) 340-2061\",\n    \"userType\": 1,\n    \"id\": \"6589672f4370a03486c67de8\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-03-02T08:58:21.884Z\",\n    \"updatedAt\": \"2024-05-29T22:47:51.493Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Gilberto19\",\n    \"email\": \"Maximillian.Reichel49@yahoo.com\",\n    \"name\": \"Annie Pouros\",\n    \"mobileNo\": \"(613) 434-3063\",\n    \"userType\": 1,\n    \"id\": \"6589901572a1003558bd8c44\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-01-11T07:05:24.481Z\",\n    \"updatedAt\": \"2024-04-13T16:14:06.511Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -1437,7 +1486,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"username\": \"Tyra_Bernier\",\n      \"password\": \"X2NI_4aA2zDADsY\",\n      \"email\": \"Era_McDermott23@yahoo.com\",\n      \"name\": \"Luis Sipes\",\n      \"mobileNo\": \"(612) 340-2061\",\n      \"userType\": 1\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"username\": \"Gilberto19\",\n      \"password\": \"faRuZj75R1OZrM5\",\n      \"email\": \"Maximillian.Reichel49@yahoo.com\",\n      \"name\": \"Annie Pouros\",\n      \"mobileNo\": \"(613) 434-3063\",\n      \"userType\": 1\n    }\n  ]\n}"
                 },
                 "description": "",
                 "auth": {
@@ -1509,7 +1558,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"username\": \"Tyra_Bernier\",\n        \"email\": \"Era_McDermott23@yahoo.com\",\n        \"name\": \"Luis Sipes\",\n        \"mobileNo\": \"(612) 340-2061\",\n        \"userType\": 1,\n        \"id\": \"6589672f4370a03486c67dea\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-03-02T08:58:21.884Z\",\n        \"updatedAt\": \"2024-05-29T22:47:51.493Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"username\": \"Gilberto19\",\n        \"email\": \"Maximillian.Reichel49@yahoo.com\",\n        \"name\": \"Annie Pouros\",\n        \"mobileNo\": \"(613) 434-3063\",\n        \"userType\": 1,\n        \"id\": \"6589901572a1003558bd8c46\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-01-11T07:05:24.481Z\",\n        \"updatedAt\": \"2024-04-13T16:14:06.511Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -1633,7 +1682,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Tyra_Bernier\",\n  \"password\": \"X2NI_4aA2zDADsY\",\n  \"email\": \"Era_McDermott23@yahoo.com\",\n  \"name\": \"Luis Sipes\",\n  \"mobileNo\": \"(612) 340-2061\",\n  \"userType\": 1\n}"
+                  "raw": "{\n  \"username\": \"Gilberto19\",\n  \"password\": \"faRuZj75R1OZrM5\",\n  \"email\": \"Maximillian.Reichel49@yahoo.com\",\n  \"name\": \"Annie Pouros\",\n  \"mobileNo\": \"(613) 434-3063\",\n  \"userType\": 1\n}"
                 },
                 "description": "",
                 "auth": {
@@ -1656,7 +1705,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Tyra_Bernier\",\n    \"email\": \"Era_McDermott23@yahoo.com\",\n    \"name\": \"Luis Sipes\",\n    \"mobileNo\": \"(612) 340-2061\",\n    \"userType\": 1,\n    \"id\": \"6589672f4370a03486c67dec\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-03-02T08:58:21.884Z\",\n    \"updatedAt\": \"2024-05-29T22:47:51.493Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Gilberto19\",\n    \"email\": \"Maximillian.Reichel49@yahoo.com\",\n    \"name\": \"Annie Pouros\",\n    \"mobileNo\": \"(613) 434-3063\",\n    \"userType\": 1,\n    \"id\": \"6589901572a1003558bd8c48\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-01-11T07:05:24.481Z\",\n    \"updatedAt\": \"2024-04-13T16:14:06.511Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -1705,7 +1754,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Tyra_Bernier\",\n    \"email\": \"Era_McDermott23@yahoo.com\",\n    \"name\": \"Luis Sipes\",\n    \"mobileNo\": \"(612) 340-2061\",\n    \"userType\": 1,\n    \"id\": \"6589672f4370a03486c67ded\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-03-02T08:58:21.884Z\",\n    \"updatedAt\": \"2024-05-29T22:47:51.493Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Gilberto19\",\n    \"email\": \"Maximillian.Reichel49@yahoo.com\",\n    \"name\": \"Annie Pouros\",\n    \"mobileNo\": \"(613) 434-3063\",\n    \"userType\": 1,\n    \"id\": \"6589901572a1003558bd8c49\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-01-11T07:05:24.481Z\",\n    \"updatedAt\": \"2024-04-13T16:14:06.511Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -1878,7 +1927,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Tyra_Bernier\",\n  \"password\": \"X2NI_4aA2zDADsY\",\n  \"email\": \"Era_McDermott23@yahoo.com\",\n  \"name\": \"Luis Sipes\",\n  \"mobileNo\": \"(612) 340-2061\",\n  \"userType\": 1\n}"
+                  "raw": "{\n  \"username\": \"Gilberto19\",\n  \"password\": \"faRuZj75R1OZrM5\",\n  \"email\": \"Maximillian.Reichel49@yahoo.com\",\n  \"name\": \"Annie Pouros\",\n  \"mobileNo\": \"(613) 434-3063\",\n  \"userType\": 1\n}"
                 },
                 "description": "",
                 "auth": {
@@ -1901,7 +1950,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Tyra_Bernier\",\n    \"email\": \"Era_McDermott23@yahoo.com\",\n    \"name\": \"Luis Sipes\",\n    \"mobileNo\": \"(612) 340-2061\",\n    \"userType\": 1,\n    \"id\": \"6589672f4370a03486c67def\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-03-02T08:58:21.884Z\",\n    \"updatedAt\": \"2024-05-29T22:47:51.493Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Gilberto19\",\n    \"email\": \"Maximillian.Reichel49@yahoo.com\",\n    \"name\": \"Annie Pouros\",\n    \"mobileNo\": \"(613) 434-3063\",\n    \"userType\": 1,\n    \"id\": \"6589901572a1003558bd8c4b\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-01-11T07:05:24.481Z\",\n    \"updatedAt\": \"2024-04-13T16:14:06.511Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -2000,7 +2049,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Login Successful\",\n  \"data\": {\n    \"username\": \"Tyra_Bernier\",\n    \"email\": \"Era_McDermott23@yahoo.com\",\n    \"name\": \"Luis Sipes\",\n    \"mobileNo\": \"(612) 340-2061\",\n    \"id\": \"6589672f4370a03486c67df1\",\n    \"loginRetryLimit\": 0,\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxMWRlZDVjMGFjMjAxMmFjMDI4ODkxZiIsInVzZXJuYW1lIjoiYWRtaW4iLCJpYXQiOjE2MjkzNTEyNzAsImV4cCI6MTYyOTk1MTI3MH0.BJ-WKjNYeFDQ4pn8kfli5gwn6GLz_c3voFht20Agj9k\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-09-10T09:26:06.849Z\",\n    \"updatedAt\": \"2024-12-18T23:35:22.634Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Login Successful\",\n  \"data\": {\n    \"username\": \"Gilberto19\",\n    \"email\": \"Maximillian.Reichel49@yahoo.com\",\n    \"name\": \"Annie Pouros\",\n    \"mobileNo\": \"(613) 434-3063\",\n    \"id\": \"6589901572a1003558bd8c4d\",\n    \"loginRetryLimit\": 0,\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxMWRlZDVjMGFjMjAxMmFjMDI4ODkxZiIsInVzZXJuYW1lIjoiYWRtaW4iLCJpYXQiOjE2MjkzNTEyNzAsImV4cCI6MTYyOTk1MTI3MH0.BJ-WKjNYeFDQ4pn8kfli5gwn6GLz_c3voFht20Agj9k\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-12-05T07:12:35.258Z\",\n    \"updatedAt\": \"2024-03-16T14:05:19.774Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -2026,7 +2075,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Tyra_Bernier\",\n  \"password\": \"X2NI_4aA2zDADsY\",\n  \"email\": \"Era_McDermott23@yahoo.com\",\n  \"name\": \"Luis Sipes\",\n  \"mobileNo\": \"(612) 340-2061\"\n}"
+                  "raw": "{\n  \"username\": \"Gilberto19\",\n  \"password\": \"faRuZj75R1OZrM5\",\n  \"email\": \"Maximillian.Reichel49@yahoo.com\",\n  \"name\": \"Annie Pouros\",\n  \"mobileNo\": \"(613) 434-3063\"\n}"
                 },
                 "description": "",
                 "auth": {}
@@ -2044,7 +2093,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Tyra_Bernier\",\n    \"email\": \"Era_McDermott23@yahoo.com\",\n    \"name\": \"Luis Sipes\",\n    \"mobileNo\": \"(612) 340-2061\",\n    \"id\": \"6589672f4370a03486c67df1\",\n    \"loginRetryLimit\": 0,\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-09-10T09:26:06.849Z\",\n    \"updatedAt\": \"2024-12-18T23:35:22.634Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Gilberto19\",\n    \"email\": \"Maximillian.Reichel49@yahoo.com\",\n    \"name\": \"Annie Pouros\",\n    \"mobileNo\": \"(613) 434-3063\",\n    \"id\": \"6589901572a1003558bd8c4d\",\n    \"loginRetryLimit\": 0,\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-12-05T07:12:35.258Z\",\n    \"updatedAt\": \"2024-03-16T14:05:19.774Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -2286,7 +2335,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Horace O'Hara\",\n    \"code\": \"Wooden\",\n    \"weight\": 737,\n    \"id\": \"6589672f4370a03486c67e05\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-10-06T09:57:37.605Z\",\n    \"updatedAt\": \"2024-01-25T09:04:54.519Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Robin Heidenreich\",\n    \"code\": \"auxiliary\",\n    \"weight\": 851,\n    \"id\": \"6589901572a1003558bd8c61\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-08-15T22:16:06.907Z\",\n    \"updatedAt\": \"2024-01-12T07:48:55.718Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -2312,7 +2361,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"name\": \"Horace O'Hara\",\n  \"code\": \"Wooden\",\n  \"weight\": 737\n}"
+                  "raw": "{\n  \"name\": \"Robin Heidenreich\",\n  \"code\": \"auxiliary\",\n  \"weight\": 851\n}"
                 },
                 "description": "",
                 "auth": {
@@ -2335,7 +2384,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Horace O'Hara\",\n    \"code\": \"Wooden\",\n    \"weight\": 737,\n    \"id\": \"6589672f4370a03486c67dff\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-10-06T09:57:37.605Z\",\n    \"updatedAt\": \"2024-01-25T09:04:54.519Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Robin Heidenreich\",\n    \"code\": \"auxiliary\",\n    \"weight\": 851,\n    \"id\": \"6589901572a1003558bd8c5b\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-08-15T22:16:06.907Z\",\n    \"updatedAt\": \"2024-01-12T07:48:55.718Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -2361,7 +2410,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"name\": \"Horace O'Hara\",\n      \"code\": \"Wooden\",\n      \"weight\": 737\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"name\": \"Robin Heidenreich\",\n      \"code\": \"auxiliary\",\n      \"weight\": 851\n    }\n  ]\n}"
                 },
                 "description": "",
                 "auth": {
@@ -2433,7 +2482,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"name\": \"Horace O'Hara\",\n        \"code\": \"Wooden\",\n        \"weight\": 737,\n        \"id\": \"6589672f4370a03486c67e01\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-10-06T09:57:37.605Z\",\n        \"updatedAt\": \"2024-01-25T09:04:54.519Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"name\": \"Robin Heidenreich\",\n        \"code\": \"auxiliary\",\n        \"weight\": 851,\n        \"id\": \"6589901572a1003558bd8c5d\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-08-15T22:16:06.907Z\",\n        \"updatedAt\": \"2024-01-12T07:48:55.718Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -2727,7 +2776,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Horace O'Hara\",\n    \"code\": \"Wooden\",\n    \"weight\": 737,\n    \"id\": \"6589672f4370a03486c67e03\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-10-06T09:57:37.605Z\",\n    \"updatedAt\": \"2024-01-25T09:04:54.519Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Robin Heidenreich\",\n    \"code\": \"auxiliary\",\n    \"weight\": 851,\n    \"id\": \"6589901572a1003558bd8c5f\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-08-15T22:16:06.907Z\",\n    \"updatedAt\": \"2024-01-12T07:48:55.718Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -2753,7 +2802,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"name\": \"Horace O'Hara\",\n  \"code\": \"Wooden\",\n  \"weight\": 737\n}"
+                  "raw": "{\n  \"name\": \"Robin Heidenreich\",\n  \"code\": \"auxiliary\",\n  \"weight\": 851\n}"
                 },
                 "description": "",
                 "auth": {
@@ -2776,7 +2825,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Horace O'Hara\",\n    \"code\": \"Wooden\",\n    \"weight\": 737,\n    \"id\": \"6589672f4370a03486c67e04\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-10-06T09:57:37.605Z\",\n    \"updatedAt\": \"2024-01-25T09:04:54.519Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Robin Heidenreich\",\n    \"code\": \"auxiliary\",\n    \"weight\": 851,\n    \"id\": \"6589901572a1003558bd8c60\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-08-15T22:16:06.907Z\",\n    \"updatedAt\": \"2024-01-12T07:48:55.718Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -2880,7 +2929,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"route_name\": \"bypass\",\n    \"method\": \"Delaware\",\n    \"uri\": \"Versatile\",\n    \"id\": \"6589672f4370a03486c67e0d\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-09-11T14:45:58.871Z\",\n    \"updatedAt\": \"2024-09-24T11:41:30.556Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"route_name\": \"azure\",\n    \"method\": \"Triple-buffered\",\n    \"uri\": \"Markets\",\n    \"id\": \"6589901572a1003558bd8c69\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-10-15T21:26:34.297Z\",\n    \"updatedAt\": \"2024-06-15T10:30:58.447Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -2906,7 +2955,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"route_name\": \"bypass\",\n  \"method\": \"Delaware\",\n  \"uri\": \"Versatile\"\n}"
+                  "raw": "{\n  \"route_name\": \"azure\",\n  \"method\": \"Triple-buffered\",\n  \"uri\": \"Markets\"\n}"
                 },
                 "description": "",
                 "auth": {
@@ -2929,7 +2978,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"route_name\": \"bypass\",\n    \"method\": \"Delaware\",\n    \"uri\": \"Versatile\",\n    \"id\": \"6589672f4370a03486c67e07\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-09-11T14:45:58.871Z\",\n    \"updatedAt\": \"2024-09-24T11:41:30.556Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"route_name\": \"azure\",\n    \"method\": \"Triple-buffered\",\n    \"uri\": \"Markets\",\n    \"id\": \"6589901572a1003558bd8c63\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-10-15T21:26:34.297Z\",\n    \"updatedAt\": \"2024-06-15T10:30:58.447Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -2955,7 +3004,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"route_name\": \"bypass\",\n      \"method\": \"Delaware\",\n      \"uri\": \"Versatile\"\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"route_name\": \"azure\",\n      \"method\": \"Triple-buffered\",\n      \"uri\": \"Markets\"\n    }\n  ]\n}"
                 },
                 "description": "",
                 "auth": {
@@ -3027,7 +3076,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"route_name\": \"bypass\",\n        \"method\": \"Delaware\",\n        \"uri\": \"Versatile\",\n        \"id\": \"6589672f4370a03486c67e09\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-09-11T14:45:58.871Z\",\n        \"updatedAt\": \"2024-09-24T11:41:30.556Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"route_name\": \"azure\",\n        \"method\": \"Triple-buffered\",\n        \"uri\": \"Markets\",\n        \"id\": \"6589901572a1003558bd8c65\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-10-15T21:26:34.297Z\",\n        \"updatedAt\": \"2024-06-15T10:30:58.447Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -3321,7 +3370,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"route_name\": \"bypass\",\n    \"method\": \"Delaware\",\n    \"uri\": \"Versatile\",\n    \"id\": \"6589672f4370a03486c67e0b\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-09-11T14:45:58.871Z\",\n    \"updatedAt\": \"2024-09-24T11:41:30.556Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"route_name\": \"azure\",\n    \"method\": \"Triple-buffered\",\n    \"uri\": \"Markets\",\n    \"id\": \"6589901572a1003558bd8c67\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-10-15T21:26:34.297Z\",\n    \"updatedAt\": \"2024-06-15T10:30:58.447Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -3347,7 +3396,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"route_name\": \"bypass\",\n  \"method\": \"Delaware\",\n  \"uri\": \"Versatile\"\n}"
+                  "raw": "{\n  \"route_name\": \"azure\",\n  \"method\": \"Triple-buffered\",\n  \"uri\": \"Markets\"\n}"
                 },
                 "description": "",
                 "auth": {
@@ -3370,7 +3419,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"route_name\": \"bypass\",\n    \"method\": \"Delaware\",\n    \"uri\": \"Versatile\",\n    \"id\": \"6589672f4370a03486c67e0c\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-09-11T14:45:58.871Z\",\n    \"updatedAt\": \"2024-09-24T11:41:30.556Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"route_name\": \"azure\",\n    \"method\": \"Triple-buffered\",\n    \"uri\": \"Markets\",\n    \"id\": \"6589901572a1003558bd8c68\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-10-15T21:26:34.297Z\",\n    \"updatedAt\": \"2024-06-15T10:30:58.447Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -3474,7 +3523,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"routeId\": \"6589672f4370a03486c67e0e\",\n    \"roleId\": \"6589672f4370a03486c67e0f\",\n    \"id\": \"6589672f4370a03486c67e17\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-03-24T06:44:04.380Z\",\n    \"updatedAt\": \"2024-03-26T22:15:08.333Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"routeId\": \"6589901572a1003558bd8c6a\",\n    \"roleId\": \"6589901572a1003558bd8c6b\",\n    \"id\": \"6589901572a1003558bd8c73\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-06-26T03:37:30.643Z\",\n    \"updatedAt\": \"2024-12-11T16:47:53.825Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -3500,7 +3549,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"routeId\": \"6589672f4370a03486c67e0e\",\n  \"roleId\": \"6589672f4370a03486c67e0f\"\n}"
+                  "raw": "{\n  \"routeId\": \"6589901572a1003558bd8c6a\",\n  \"roleId\": \"6589901572a1003558bd8c6b\"\n}"
                 },
                 "description": "",
                 "auth": {
@@ -3523,7 +3572,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"routeId\": \"6589672f4370a03486c67e0e\",\n    \"roleId\": \"6589672f4370a03486c67e0f\",\n    \"id\": \"6589672f4370a03486c67e11\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-03-24T06:44:04.380Z\",\n    \"updatedAt\": \"2024-03-26T22:15:08.333Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"routeId\": \"6589901572a1003558bd8c6a\",\n    \"roleId\": \"6589901572a1003558bd8c6b\",\n    \"id\": \"6589901572a1003558bd8c6d\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-06-26T03:37:30.643Z\",\n    \"updatedAt\": \"2024-12-11T16:47:53.825Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -3549,7 +3598,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"routeId\": \"6589672f4370a03486c67e0e\",\n      \"roleId\": \"6589672f4370a03486c67e0f\"\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"routeId\": \"6589901572a1003558bd8c6a\",\n      \"roleId\": \"6589901572a1003558bd8c6b\"\n    }\n  ]\n}"
                 },
                 "description": "",
                 "auth": {
@@ -3621,7 +3670,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"routeId\": \"6589672f4370a03486c67e0e\",\n        \"roleId\": \"6589672f4370a03486c67e0f\",\n        \"id\": \"6589672f4370a03486c67e13\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-03-24T06:44:04.380Z\",\n        \"updatedAt\": \"2024-03-26T22:15:08.333Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"routeId\": \"6589901572a1003558bd8c6a\",\n        \"roleId\": \"6589901572a1003558bd8c6b\",\n        \"id\": \"6589901572a1003558bd8c6f\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-06-26T03:37:30.643Z\",\n        \"updatedAt\": \"2024-12-11T16:47:53.825Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -3915,7 +3964,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"routeId\": \"6589672f4370a03486c67e0e\",\n    \"roleId\": \"6589672f4370a03486c67e0f\",\n    \"id\": \"6589672f4370a03486c67e15\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-03-24T06:44:04.380Z\",\n    \"updatedAt\": \"2024-03-26T22:15:08.333Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"routeId\": \"6589901572a1003558bd8c6a\",\n    \"roleId\": \"6589901572a1003558bd8c6b\",\n    \"id\": \"6589901572a1003558bd8c71\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-06-26T03:37:30.643Z\",\n    \"updatedAt\": \"2024-12-11T16:47:53.825Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -3941,7 +3990,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"routeId\": \"6589672f4370a03486c67e0e\",\n  \"roleId\": \"6589672f4370a03486c67e0f\"\n}"
+                  "raw": "{\n  \"routeId\": \"6589901572a1003558bd8c6a\",\n  \"roleId\": \"6589901572a1003558bd8c6b\"\n}"
                 },
                 "description": "",
                 "auth": {
@@ -3964,7 +4013,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"routeId\": \"6589672f4370a03486c67e0e\",\n    \"roleId\": \"6589672f4370a03486c67e0f\",\n    \"id\": \"6589672f4370a03486c67e16\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-03-24T06:44:04.380Z\",\n    \"updatedAt\": \"2024-03-26T22:15:08.333Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"routeId\": \"6589901572a1003558bd8c6a\",\n    \"roleId\": \"6589901572a1003558bd8c6b\",\n    \"id\": \"6589901572a1003558bd8c72\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-06-26T03:37:30.643Z\",\n    \"updatedAt\": \"2024-12-11T16:47:53.825Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -4068,7 +4117,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"userId\": \"6589672f4370a03486c67e18\",\n    \"roleId\": \"6589672f4370a03486c67e19\",\n    \"id\": \"6589672f4370a03486c67e21\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-12-30T02:10:55.869Z\",\n    \"updatedAt\": \"2024-06-18T21:00:29.624Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"userId\": \"6589901572a1003558bd8c74\",\n    \"roleId\": \"6589901572a1003558bd8c75\",\n    \"id\": \"6589901572a1003558bd8c7d\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-03-18T09:15:15.171Z\",\n    \"updatedAt\": \"2024-10-26T22:09:23.621Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -4094,7 +4143,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"userId\": \"6589672f4370a03486c67e18\",\n  \"roleId\": \"6589672f4370a03486c67e19\"\n}"
+                  "raw": "{\n  \"userId\": \"6589901572a1003558bd8c74\",\n  \"roleId\": \"6589901572a1003558bd8c75\"\n}"
                 },
                 "description": "",
                 "auth": {
@@ -4117,7 +4166,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"userId\": \"6589672f4370a03486c67e18\",\n    \"roleId\": \"6589672f4370a03486c67e19\",\n    \"id\": \"6589672f4370a03486c67e1b\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-12-30T02:10:55.869Z\",\n    \"updatedAt\": \"2024-06-18T21:00:29.624Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"userId\": \"6589901572a1003558bd8c74\",\n    \"roleId\": \"6589901572a1003558bd8c75\",\n    \"id\": \"6589901572a1003558bd8c77\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-03-18T09:15:15.171Z\",\n    \"updatedAt\": \"2024-10-26T22:09:23.621Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -4143,7 +4192,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"userId\": \"6589672f4370a03486c67e18\",\n      \"roleId\": \"6589672f4370a03486c67e19\"\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"userId\": \"6589901572a1003558bd8c74\",\n      \"roleId\": \"6589901572a1003558bd8c75\"\n    }\n  ]\n}"
                 },
                 "description": "",
                 "auth": {
@@ -4215,7 +4264,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"userId\": \"6589672f4370a03486c67e18\",\n        \"roleId\": \"6589672f4370a03486c67e19\",\n        \"id\": \"6589672f4370a03486c67e1d\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2023-12-30T02:10:55.869Z\",\n        \"updatedAt\": \"2024-06-18T21:00:29.624Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"userId\": \"6589901572a1003558bd8c74\",\n        \"roleId\": \"6589901572a1003558bd8c75\",\n        \"id\": \"6589901572a1003558bd8c79\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-03-18T09:15:15.171Z\",\n        \"updatedAt\": \"2024-10-26T22:09:23.621Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -4509,7 +4558,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"userId\": \"6589672f4370a03486c67e18\",\n    \"roleId\": \"6589672f4370a03486c67e19\",\n    \"id\": \"6589672f4370a03486c67e1f\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-12-30T02:10:55.869Z\",\n    \"updatedAt\": \"2024-06-18T21:00:29.624Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"userId\": \"6589901572a1003558bd8c74\",\n    \"roleId\": \"6589901572a1003558bd8c75\",\n    \"id\": \"6589901572a1003558bd8c7b\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-03-18T09:15:15.171Z\",\n    \"updatedAt\": \"2024-10-26T22:09:23.621Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -4535,7 +4584,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"userId\": \"6589672f4370a03486c67e18\",\n  \"roleId\": \"6589672f4370a03486c67e19\"\n}"
+                  "raw": "{\n  \"userId\": \"6589901572a1003558bd8c74\",\n  \"roleId\": \"6589901572a1003558bd8c75\"\n}"
                 },
                 "description": "",
                 "auth": {
@@ -4558,7 +4607,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"userId\": \"6589672f4370a03486c67e18\",\n    \"roleId\": \"6589672f4370a03486c67e19\",\n    \"id\": \"6589672f4370a03486c67e20\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-12-30T02:10:55.869Z\",\n    \"updatedAt\": \"2024-06-18T21:00:29.624Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"userId\": \"6589901572a1003558bd8c74\",\n    \"roleId\": \"6589901572a1003558bd8c75\",\n    \"id\": \"6589901572a1003558bd8c7c\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-03-18T09:15:15.171Z\",\n    \"updatedAt\": \"2024-10-26T22:09:23.621Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -4668,7 +4717,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"title\": \"Shirt\",\n    \"description\": \"content\",\n    \"totalQuestionCount\": 800,\n    \"addedQuestionCount\": 398,\n    \"id\": \"6589672f4370a03486c67dd7\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-09-02T19:30:43.616Z\",\n    \"updatedAt\": \"2024-10-18T22:19:22.610Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"title\": \"open-source\",\n    \"description\": \"actuating\",\n    \"totalQuestionCount\": 806,\n    \"addedQuestionCount\": 529,\n    \"id\": \"6589901572a1003558bd8c33\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-04-19T21:44:47.902Z\",\n    \"updatedAt\": \"2024-10-26T22:36:09.389Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -4717,7 +4766,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"title\": \"Shirt\",\n        \"description\": \"content\",\n        \"totalQuestionCount\": 800,\n        \"addedQuestionCount\": 398,\n        \"id\": \"6589672f4370a03486c67dd6\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-09-02T19:30:43.616Z\",\n        \"updatedAt\": \"2024-10-18T22:19:22.610Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"title\": \"open-source\",\n        \"description\": \"actuating\",\n        \"totalQuestionCount\": 806,\n        \"addedQuestionCount\": 529,\n        \"id\": \"6589901572a1003558bd8c32\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-04-19T21:44:47.902Z\",\n        \"updatedAt\": \"2024-10-26T22:36:09.389Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -4776,6 +4825,33 @@
                   "cookie": []
                 }
               ],
+              "_postman_isSubFolder": true
+            }
+          ]
+        },
+        {
+          "name": "Social Login",
+          "description": "Login Through Social Accounts",
+          "item": [
+            {
+              "name": "Social Login through google",
+              "request": {
+                "url": "{{url}}/device/auth/login/google",
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "description": ""
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{}"
+                },
+                "description": "",
+                "auth": {}
+              },
               "_postman_isSubFolder": true
             }
           ]
@@ -4852,6 +4928,55 @@
                 }
               ],
               "_postman_isSubFolder": true
+            },
+            {
+              "name": "Get Presigned Url for S3 private Upload",
+              "request": {
+                "url": "{{url}}/device/api/v1/generate-pre-signed-url",
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "description": ""
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{token}}",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"uri\": \"s3 URL\"\n}"
+                },
+                "description": "",
+                "auth": {}
+              },
+              "response": [
+                {
+                  "name": "Get Presigned Url for S3 private Upload",
+                  "originalRequest": {
+                    "method": "POST",
+                    "header": [],
+                    "url": {
+                      "raw": "{{url}}/device/api/v1/generate-pre-signed-url"
+                    }
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "_postman_previewlanguage": "json",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": [\n    {\n      \"status\": true,\n      \"path\": \"URL to access file\"\n    }\n  ]\n}",
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "cookie": []
+                }
+              ],
+              "_postman_isSubFolder": true
             }
           ]
         },
@@ -4896,7 +5021,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"title\": \"Codes\",\n    \"alternativeHeadline\": \"Checking\",\n    \"image\": \"Investment\",\n    \"publishDate\": \"system\",\n    \"author\": {\n      \"name\": \"Eunice Fay\",\n      \"image\": \"solution\",\n      \"email\": \"Jefferey82@gmail.com\"\n    },\n    \"publisher\": {\n      \"name\": \"Gilberto Swaniawski PhD\",\n      \"url\": \"XML\",\n      \"logo\": \"Massachusetts\"\n    },\n    \"articleSection\": \"of\",\n    \"articleBody\": \"Generic\",\n    \"description\": \"Creek\",\n    \"slug\": \"Chief\",\n    \"url\": \"Steel\",\n    \"isDraft\": true,\n    \"id\": \"6589672f4370a03486c67de3\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-12-21T01:25:09.658Z\",\n    \"updatedAt\": \"2024-09-07T17:55:33.201Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"title\": \"plug-and-play\",\n    \"alternativeHeadline\": \"optical\",\n    \"image\": \"Account\",\n    \"publishDate\": \"compressing\",\n    \"author\": {\n      \"name\": \"Kerry Brown\",\n      \"image\": \"Buckinghamshire\",\n      \"email\": \"Immanuel_Tromp73@hotmail.com\"\n    },\n    \"publisher\": {\n      \"name\": \"Christine Hyatt\",\n      \"url\": \"IB\",\n      \"logo\": \"Response\"\n    },\n    \"articleSection\": \"Senegal\",\n    \"articleBody\": \"Generic\",\n    \"description\": \"embrace\",\n    \"slug\": \"white\",\n    \"url\": \"technologies\",\n    \"isDraft\": false,\n    \"id\": \"6589901572a1003558bd8c3f\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-11-22T23:56:16.017Z\",\n    \"updatedAt\": \"2024-12-05T10:13:53.318Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -4922,7 +5047,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"title\": \"Codes\",\n  \"alternativeHeadline\": \"Checking\",\n  \"image\": \"Investment\",\n  \"publishDate\": \"system\",\n  \"author\": {\n    \"name\": \"Eunice Fay\",\n    \"image\": \"solution\",\n    \"email\": \"Jefferey82@gmail.com\"\n  },\n  \"publisher\": {\n    \"name\": \"Gilberto Swaniawski PhD\",\n    \"url\": \"XML\",\n    \"logo\": \"Massachusetts\"\n  },\n  \"articleSection\": \"of\",\n  \"articleBody\": \"Generic\",\n  \"description\": \"Creek\",\n  \"slug\": \"Chief\",\n  \"url\": \"Steel\",\n  \"isDraft\": true\n}"
+                  "raw": "{\n  \"title\": \"plug-and-play\",\n  \"alternativeHeadline\": \"optical\",\n  \"image\": \"Account\",\n  \"publishDate\": \"compressing\",\n  \"author\": {\n    \"name\": \"Kerry Brown\",\n    \"image\": \"Buckinghamshire\",\n    \"email\": \"Immanuel_Tromp73@hotmail.com\"\n  },\n  \"publisher\": {\n    \"name\": \"Christine Hyatt\",\n    \"url\": \"IB\",\n    \"logo\": \"Response\"\n  },\n  \"articleSection\": \"Senegal\",\n  \"articleBody\": \"Generic\",\n  \"description\": \"embrace\",\n  \"slug\": \"white\",\n  \"url\": \"technologies\",\n  \"isDraft\": false\n}"
                 },
                 "description": "",
                 "auth": {
@@ -4945,7 +5070,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"title\": \"Codes\",\n    \"alternativeHeadline\": \"Checking\",\n    \"image\": \"Investment\",\n    \"publishDate\": \"system\",\n    \"author\": {\n      \"name\": \"Eunice Fay\",\n      \"image\": \"solution\",\n      \"email\": \"Jefferey82@gmail.com\"\n    },\n    \"publisher\": {\n      \"name\": \"Gilberto Swaniawski PhD\",\n      \"url\": \"XML\",\n      \"logo\": \"Massachusetts\"\n    },\n    \"articleSection\": \"of\",\n    \"articleBody\": \"Generic\",\n    \"description\": \"Creek\",\n    \"slug\": \"Chief\",\n    \"url\": \"Steel\",\n    \"isDraft\": true,\n    \"id\": \"6589672f4370a03486c67de0\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-12-21T01:25:09.658Z\",\n    \"updatedAt\": \"2024-09-07T17:55:33.201Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"title\": \"plug-and-play\",\n    \"alternativeHeadline\": \"optical\",\n    \"image\": \"Account\",\n    \"publishDate\": \"compressing\",\n    \"author\": {\n      \"name\": \"Kerry Brown\",\n      \"image\": \"Buckinghamshire\",\n      \"email\": \"Immanuel_Tromp73@hotmail.com\"\n    },\n    \"publisher\": {\n      \"name\": \"Christine Hyatt\",\n      \"url\": \"IB\",\n      \"logo\": \"Response\"\n    },\n    \"articleSection\": \"Senegal\",\n    \"articleBody\": \"Generic\",\n    \"description\": \"embrace\",\n    \"slug\": \"white\",\n    \"url\": \"technologies\",\n    \"isDraft\": false,\n    \"id\": \"6589901572a1003558bd8c3c\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-11-22T23:56:16.017Z\",\n    \"updatedAt\": \"2024-12-05T10:13:53.318Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -4971,7 +5096,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"title\": \"Codes\",\n      \"alternativeHeadline\": \"Checking\",\n      \"image\": \"Investment\",\n      \"publishDate\": \"system\",\n      \"author\": {\n        \"name\": \"Eunice Fay\",\n        \"image\": \"solution\",\n        \"email\": \"Jefferey82@gmail.com\"\n      },\n      \"publisher\": {\n        \"name\": \"Gilberto Swaniawski PhD\",\n        \"url\": \"XML\",\n        \"logo\": \"Massachusetts\"\n      },\n      \"articleSection\": \"of\",\n      \"articleBody\": \"Generic\",\n      \"description\": \"Creek\",\n      \"slug\": \"Chief\",\n      \"url\": \"Steel\",\n      \"isDraft\": true\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"title\": \"plug-and-play\",\n      \"alternativeHeadline\": \"optical\",\n      \"image\": \"Account\",\n      \"publishDate\": \"compressing\",\n      \"author\": {\n        \"name\": \"Kerry Brown\",\n        \"image\": \"Buckinghamshire\",\n        \"email\": \"Immanuel_Tromp73@hotmail.com\"\n      },\n      \"publisher\": {\n        \"name\": \"Christine Hyatt\",\n        \"url\": \"IB\",\n        \"logo\": \"Response\"\n      },\n      \"articleSection\": \"Senegal\",\n      \"articleBody\": \"Generic\",\n      \"description\": \"embrace\",\n      \"slug\": \"white\",\n      \"url\": \"technologies\",\n      \"isDraft\": false\n    }\n  ]\n}"
                 },
                 "description": "",
                 "auth": {
@@ -5043,7 +5168,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"title\": \"Codes\",\n        \"alternativeHeadline\": \"Checking\",\n        \"image\": \"Investment\",\n        \"publishDate\": \"system\",\n        \"author\": {\n          \"name\": \"Eunice Fay\",\n          \"image\": \"solution\",\n          \"email\": \"Jefferey82@gmail.com\"\n        },\n        \"publisher\": {\n          \"name\": \"Gilberto Swaniawski PhD\",\n          \"url\": \"XML\",\n          \"logo\": \"Massachusetts\"\n        },\n        \"articleSection\": \"of\",\n        \"articleBody\": \"Generic\",\n        \"description\": \"Creek\",\n        \"slug\": \"Chief\",\n        \"url\": \"Steel\",\n        \"isDraft\": true,\n        \"id\": \"6589672f4370a03486c67de2\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-12-21T01:25:09.658Z\",\n        \"updatedAt\": \"2024-09-07T17:55:33.201Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"title\": \"plug-and-play\",\n        \"alternativeHeadline\": \"optical\",\n        \"image\": \"Account\",\n        \"publishDate\": \"compressing\",\n        \"author\": {\n          \"name\": \"Kerry Brown\",\n          \"image\": \"Buckinghamshire\",\n          \"email\": \"Immanuel_Tromp73@hotmail.com\"\n        },\n        \"publisher\": {\n          \"name\": \"Christine Hyatt\",\n          \"url\": \"IB\",\n          \"logo\": \"Response\"\n        },\n        \"articleSection\": \"Senegal\",\n        \"articleBody\": \"Generic\",\n        \"description\": \"embrace\",\n        \"slug\": \"white\",\n        \"url\": \"technologies\",\n        \"isDraft\": false,\n        \"id\": \"6589901572a1003558bd8c3e\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-11-22T23:56:16.017Z\",\n        \"updatedAt\": \"2024-12-05T10:13:53.318Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -5167,7 +5292,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"title\": \"Codes\",\n  \"alternativeHeadline\": \"Checking\",\n  \"image\": \"Investment\",\n  \"publishDate\": \"system\",\n  \"author\": {\n    \"name\": \"Eunice Fay\",\n    \"image\": \"solution\",\n    \"email\": \"Jefferey82@gmail.com\"\n  },\n  \"publisher\": {\n    \"name\": \"Gilberto Swaniawski PhD\",\n    \"url\": \"XML\",\n    \"logo\": \"Massachusetts\"\n  },\n  \"articleSection\": \"of\",\n  \"articleBody\": \"Generic\",\n  \"description\": \"Creek\",\n  \"slug\": \"Chief\",\n  \"url\": \"Steel\",\n  \"isDraft\": true\n}"
+                  "raw": "{\n  \"title\": \"plug-and-play\",\n  \"alternativeHeadline\": \"optical\",\n  \"image\": \"Account\",\n  \"publishDate\": \"compressing\",\n  \"author\": {\n    \"name\": \"Kerry Brown\",\n    \"image\": \"Buckinghamshire\",\n    \"email\": \"Immanuel_Tromp73@hotmail.com\"\n  },\n  \"publisher\": {\n    \"name\": \"Christine Hyatt\",\n    \"url\": \"IB\",\n    \"logo\": \"Response\"\n  },\n  \"articleSection\": \"Senegal\",\n  \"articleBody\": \"Generic\",\n  \"description\": \"embrace\",\n  \"slug\": \"white\",\n  \"url\": \"technologies\",\n  \"isDraft\": false\n}"
                 },
                 "description": "",
                 "auth": {
@@ -5190,7 +5315,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"title\": \"Codes\",\n    \"alternativeHeadline\": \"Checking\",\n    \"image\": \"Investment\",\n    \"publishDate\": \"system\",\n    \"author\": {\n      \"name\": \"Eunice Fay\",\n      \"image\": \"solution\",\n      \"email\": \"Jefferey82@gmail.com\"\n    },\n    \"publisher\": {\n      \"name\": \"Gilberto Swaniawski PhD\",\n      \"url\": \"XML\",\n      \"logo\": \"Massachusetts\"\n    },\n    \"articleSection\": \"of\",\n    \"articleBody\": \"Generic\",\n    \"description\": \"Creek\",\n    \"slug\": \"Chief\",\n    \"url\": \"Steel\",\n    \"isDraft\": true,\n    \"id\": \"6589672f4370a03486c67de4\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-12-21T01:25:09.658Z\",\n    \"updatedAt\": \"2024-09-07T17:55:33.201Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"title\": \"plug-and-play\",\n    \"alternativeHeadline\": \"optical\",\n    \"image\": \"Account\",\n    \"publishDate\": \"compressing\",\n    \"author\": {\n      \"name\": \"Kerry Brown\",\n      \"image\": \"Buckinghamshire\",\n      \"email\": \"Immanuel_Tromp73@hotmail.com\"\n    },\n    \"publisher\": {\n      \"name\": \"Christine Hyatt\",\n      \"url\": \"IB\",\n      \"logo\": \"Response\"\n    },\n    \"articleSection\": \"Senegal\",\n    \"articleBody\": \"Generic\",\n    \"description\": \"embrace\",\n    \"slug\": \"white\",\n    \"url\": \"technologies\",\n    \"isDraft\": false,\n    \"id\": \"6589901572a1003558bd8c40\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-11-22T23:56:16.017Z\",\n    \"updatedAt\": \"2024-12-05T10:13:53.318Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -5239,7 +5364,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"title\": \"Codes\",\n    \"alternativeHeadline\": \"Checking\",\n    \"image\": \"Investment\",\n    \"publishDate\": \"system\",\n    \"author\": {\n      \"name\": \"Eunice Fay\",\n      \"image\": \"solution\",\n      \"email\": \"Jefferey82@gmail.com\"\n    },\n    \"publisher\": {\n      \"name\": \"Gilberto Swaniawski PhD\",\n      \"url\": \"XML\",\n      \"logo\": \"Massachusetts\"\n    },\n    \"articleSection\": \"of\",\n    \"articleBody\": \"Generic\",\n    \"description\": \"Creek\",\n    \"slug\": \"Chief\",\n    \"url\": \"Steel\",\n    \"isDraft\": true,\n    \"id\": \"6589672f4370a03486c67de5\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-12-21T01:25:09.658Z\",\n    \"updatedAt\": \"2024-09-07T17:55:33.201Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"title\": \"plug-and-play\",\n    \"alternativeHeadline\": \"optical\",\n    \"image\": \"Account\",\n    \"publishDate\": \"compressing\",\n    \"author\": {\n      \"name\": \"Kerry Brown\",\n      \"image\": \"Buckinghamshire\",\n      \"email\": \"Immanuel_Tromp73@hotmail.com\"\n    },\n    \"publisher\": {\n      \"name\": \"Christine Hyatt\",\n      \"url\": \"IB\",\n      \"logo\": \"Response\"\n    },\n    \"articleSection\": \"Senegal\",\n    \"articleBody\": \"Generic\",\n    \"description\": \"embrace\",\n    \"slug\": \"white\",\n    \"url\": \"technologies\",\n    \"isDraft\": false,\n    \"id\": \"6589901572a1003558bd8c41\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-11-22T23:56:16.017Z\",\n    \"updatedAt\": \"2024-12-05T10:13:53.318Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -5490,7 +5615,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Tyra_Bernier\",\n    \"email\": \"Era_McDermott23@yahoo.com\",\n    \"name\": \"Luis Sipes\",\n    \"mobileNo\": \"(612) 340-2061\",\n    \"userType\": 1,\n    \"id\": \"6589672f4370a03486c67df4\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-08-10T12:26:24.513Z\",\n    \"updatedAt\": \"2024-07-23T17:56:14.359Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Gilberto19\",\n    \"email\": \"Maximillian.Reichel49@yahoo.com\",\n    \"name\": \"Annie Pouros\",\n    \"mobileNo\": \"(613) 434-3063\",\n    \"userType\": 1,\n    \"id\": \"6589901572a1003558bd8c50\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-05-02T19:59:03.635Z\",\n    \"updatedAt\": \"2024-09-03T02:07:02.399Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -5539,7 +5664,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Tyra_Bernier\",\n    \"email\": \"Era_McDermott23@yahoo.com\",\n    \"name\": \"Luis Sipes\",\n    \"mobileNo\": \"(612) 340-2061\",\n    \"userType\": 1,\n    \"id\": \"6589672f4370a03486c67df8\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-08-10T12:26:24.513Z\",\n    \"updatedAt\": \"2024-07-23T17:56:14.359Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Gilberto19\",\n    \"email\": \"Maximillian.Reichel49@yahoo.com\",\n    \"name\": \"Annie Pouros\",\n    \"mobileNo\": \"(613) 434-3063\",\n    \"userType\": 1,\n    \"id\": \"6589901572a1003558bd8c54\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-05-02T19:59:03.635Z\",\n    \"updatedAt\": \"2024-09-03T02:07:02.399Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -5565,7 +5690,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Tyra_Bernier\",\n  \"password\": \"X2NI_4aA2zDADsY\",\n  \"email\": \"Era_McDermott23@yahoo.com\",\n  \"name\": \"Luis Sipes\",\n  \"mobileNo\": \"(612) 340-2061\",\n  \"userType\": 1\n}"
+                  "raw": "{\n  \"username\": \"Gilberto19\",\n  \"password\": \"faRuZj75R1OZrM5\",\n  \"email\": \"Maximillian.Reichel49@yahoo.com\",\n  \"name\": \"Annie Pouros\",\n  \"mobileNo\": \"(613) 434-3063\",\n  \"userType\": 1\n}"
                 },
                 "description": "",
                 "auth": {}
@@ -5583,7 +5708,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Tyra_Bernier\",\n    \"email\": \"Era_McDermott23@yahoo.com\",\n    \"name\": \"Luis Sipes\",\n    \"mobileNo\": \"(612) 340-2061\",\n    \"userType\": 1,\n    \"id\": \"6589672f4370a03486c67df2\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-08-10T12:26:24.513Z\",\n    \"updatedAt\": \"2024-07-23T17:56:14.359Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Gilberto19\",\n    \"email\": \"Maximillian.Reichel49@yahoo.com\",\n    \"name\": \"Annie Pouros\",\n    \"mobileNo\": \"(613) 434-3063\",\n    \"userType\": 1,\n    \"id\": \"6589901572a1003558bd8c4e\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-05-02T19:59:03.635Z\",\n    \"updatedAt\": \"2024-09-03T02:07:02.399Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -5632,7 +5757,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"username\": \"Tyra_Bernier\",\n        \"email\": \"Era_McDermott23@yahoo.com\",\n        \"name\": \"Luis Sipes\",\n        \"mobileNo\": \"(612) 340-2061\",\n        \"userType\": 1,\n        \"id\": \"6589672f4370a03486c67df3\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-08-10T12:26:24.513Z\",\n        \"updatedAt\": \"2024-07-23T17:56:14.359Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"username\": \"Gilberto19\",\n        \"email\": \"Maximillian.Reichel49@yahoo.com\",\n        \"name\": \"Annie Pouros\",\n        \"mobileNo\": \"(613) 434-3063\",\n        \"userType\": 1,\n        \"id\": \"6589901572a1003558bd8c4f\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-05-02T19:59:03.635Z\",\n        \"updatedAt\": \"2024-09-03T02:07:02.399Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -5756,7 +5881,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Tyra_Bernier\",\n  \"password\": \"X2NI_4aA2zDADsY\",\n  \"email\": \"Era_McDermott23@yahoo.com\",\n  \"name\": \"Luis Sipes\",\n  \"mobileNo\": \"(612) 340-2061\",\n  \"userType\": 1\n}"
+                  "raw": "{\n  \"username\": \"Gilberto19\",\n  \"password\": \"faRuZj75R1OZrM5\",\n  \"email\": \"Maximillian.Reichel49@yahoo.com\",\n  \"name\": \"Annie Pouros\",\n  \"mobileNo\": \"(613) 434-3063\",\n  \"userType\": 1\n}"
                 },
                 "description": "",
                 "auth": {
@@ -5779,7 +5904,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Tyra_Bernier\",\n    \"email\": \"Era_McDermott23@yahoo.com\",\n    \"name\": \"Luis Sipes\",\n    \"mobileNo\": \"(612) 340-2061\",\n    \"userType\": 1,\n    \"id\": \"6589672f4370a03486c67df5\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-08-10T12:26:24.513Z\",\n    \"updatedAt\": \"2024-07-23T17:56:14.359Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Gilberto19\",\n    \"email\": \"Maximillian.Reichel49@yahoo.com\",\n    \"name\": \"Annie Pouros\",\n    \"mobileNo\": \"(613) 434-3063\",\n    \"userType\": 1,\n    \"id\": \"6589901572a1003558bd8c51\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-05-02T19:59:03.635Z\",\n    \"updatedAt\": \"2024-09-03T02:07:02.399Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -5828,7 +5953,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Tyra_Bernier\",\n    \"email\": \"Era_McDermott23@yahoo.com\",\n    \"name\": \"Luis Sipes\",\n    \"mobileNo\": \"(612) 340-2061\",\n    \"userType\": 1,\n    \"id\": \"6589672f4370a03486c67df6\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-08-10T12:26:24.513Z\",\n    \"updatedAt\": \"2024-07-23T17:56:14.359Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Gilberto19\",\n    \"email\": \"Maximillian.Reichel49@yahoo.com\",\n    \"name\": \"Annie Pouros\",\n    \"mobileNo\": \"(613) 434-3063\",\n    \"userType\": 1,\n    \"id\": \"6589901572a1003558bd8c52\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-05-02T19:59:03.635Z\",\n    \"updatedAt\": \"2024-09-03T02:07:02.399Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -5952,7 +6077,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Tyra_Bernier\",\n  \"password\": \"X2NI_4aA2zDADsY\",\n  \"email\": \"Era_McDermott23@yahoo.com\",\n  \"name\": \"Luis Sipes\",\n  \"mobileNo\": \"(612) 340-2061\",\n  \"userType\": 1\n}"
+                  "raw": "{\n  \"username\": \"Gilberto19\",\n  \"password\": \"faRuZj75R1OZrM5\",\n  \"email\": \"Maximillian.Reichel49@yahoo.com\",\n  \"name\": \"Annie Pouros\",\n  \"mobileNo\": \"(613) 434-3063\",\n  \"userType\": 1\n}"
                 },
                 "description": "",
                 "auth": {
@@ -5975,7 +6100,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Tyra_Bernier\",\n    \"email\": \"Era_McDermott23@yahoo.com\",\n    \"name\": \"Luis Sipes\",\n    \"mobileNo\": \"(612) 340-2061\",\n    \"userType\": 1,\n    \"id\": \"6589672f4370a03486c67df7\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-08-10T12:26:24.513Z\",\n    \"updatedAt\": \"2024-07-23T17:56:14.359Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Gilberto19\",\n    \"email\": \"Maximillian.Reichel49@yahoo.com\",\n    \"name\": \"Annie Pouros\",\n    \"mobileNo\": \"(613) 434-3063\",\n    \"userType\": 1,\n    \"id\": \"6589901572a1003558bd8c53\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-05-02T19:59:03.635Z\",\n    \"updatedAt\": \"2024-09-03T02:07:02.399Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -6074,7 +6199,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Login Successful\",\n  \"data\": {\n    \"username\": \"Tyra_Bernier\",\n    \"email\": \"Era_McDermott23@yahoo.com\",\n    \"name\": \"Luis Sipes\",\n    \"mobileNo\": \"(612) 340-2061\",\n    \"id\": \"6589672f4370a03486c67df9\",\n    \"loginRetryLimit\": 0,\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxMWRlZDVjMGFjMjAxMmFjMDI4ODkxZiIsInVzZXJuYW1lIjoiYWRtaW4iLCJpYXQiOjE2MjkzNTEyNzAsImV4cCI6MTYyOTk1MTI3MH0.BJ-WKjNYeFDQ4pn8kfli5gwn6GLz_c3voFht20Agj9k\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-01-20T09:13:37.861Z\",\n    \"updatedAt\": \"2024-03-04T14:30:02.679Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Login Successful\",\n  \"data\": {\n    \"username\": \"Gilberto19\",\n    \"email\": \"Maximillian.Reichel49@yahoo.com\",\n    \"name\": \"Annie Pouros\",\n    \"mobileNo\": \"(613) 434-3063\",\n    \"id\": \"6589901572a1003558bd8c55\",\n    \"loginRetryLimit\": 0,\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxMWRlZDVjMGFjMjAxMmFjMDI4ODkxZiIsInVzZXJuYW1lIjoiYWRtaW4iLCJpYXQiOjE2MjkzNTEyNzAsImV4cCI6MTYyOTk1MTI3MH0.BJ-WKjNYeFDQ4pn8kfli5gwn6GLz_c3voFht20Agj9k\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-12-10T20:11:49.520Z\",\n    \"updatedAt\": \"2024-08-08T03:03:07.736Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -6100,7 +6225,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Tyra_Bernier\",\n  \"password\": \"X2NI_4aA2zDADsY\",\n  \"email\": \"Era_McDermott23@yahoo.com\",\n  \"name\": \"Luis Sipes\",\n  \"mobileNo\": \"(612) 340-2061\"\n}"
+                  "raw": "{\n  \"username\": \"Gilberto19\",\n  \"password\": \"faRuZj75R1OZrM5\",\n  \"email\": \"Maximillian.Reichel49@yahoo.com\",\n  \"name\": \"Annie Pouros\",\n  \"mobileNo\": \"(613) 434-3063\"\n}"
                 },
                 "description": "",
                 "auth": {}
@@ -6118,7 +6243,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Tyra_Bernier\",\n    \"email\": \"Era_McDermott23@yahoo.com\",\n    \"name\": \"Luis Sipes\",\n    \"mobileNo\": \"(612) 340-2061\",\n    \"id\": \"6589672f4370a03486c67df9\",\n    \"loginRetryLimit\": 0,\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-01-20T09:13:37.861Z\",\n    \"updatedAt\": \"2024-03-04T14:30:02.679Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Gilberto19\",\n    \"email\": \"Maximillian.Reichel49@yahoo.com\",\n    \"name\": \"Annie Pouros\",\n    \"mobileNo\": \"(613) 434-3063\",\n    \"id\": \"6589901572a1003558bd8c55\",\n    \"loginRetryLimit\": 0,\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-12-10T20:11:49.520Z\",\n    \"updatedAt\": \"2024-08-08T03:03:07.736Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",

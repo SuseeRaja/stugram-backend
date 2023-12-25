@@ -11,4 +11,6 @@ const { PLATFORM } =  require('../../../constants/authConstant');
 
 router.post('/device/api/v1/upload',auth(PLATFORM.DEVICE),fileUploadController.upload);
 
+router.post('/device/api/v1/generate-pre-signed-url',auth(PLATFORM.DEVICE),fileUploadController.generatePreSignedURL);
+
 module.exports = router;

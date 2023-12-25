@@ -24,7 +24,8 @@ exports.schemaKeys = joi.object({
   resetPasswordLink: joi.object({
     code:joi.string(),
     expireTime:joi.date().options({ convert: true })
-  })
+  }),
+  ssoAuth: joi.object({ googleId:joi.string() })
 }).unknown(true);
 
 /** validation keys and properties of user for updation */
@@ -41,6 +42,7 @@ exports.updateSchemaKeys = joi.object({
     code:joi.string(),
     expireTime:joi.date().options({ convert: true })
   }),
+  ssoAuth: joi.object({ googleId:joi.string() }),
   _id: joi.string().regex(/^[0-9a-fA-F]{24}$/)
 }).unknown(true);
 
@@ -57,6 +59,7 @@ exports.findFilterKeys = joi.object({
       isActive: joi.alternatives().try(joi.array().items(),joi.boolean(),joi.object()),
       isDeleted: joi.alternatives().try(joi.array().items(),joi.boolean(),joi.object()),
       mobileNo: joi.alternatives().try(joi.array().items(),joi.string(),joi.object()),
+      ssoAuth: joi.alternatives().try(joi.array().items(),joi.string(),joi.object()),
       id: joi.any(),
       _id: joi.alternatives().try(joi.array().items(),joi.string().regex(/^[0-9a-fA-F]{24}$/),joi.object())
     }).unknown(true),])

@@ -71,7 +71,9 @@ const schema = new Schema(
       default:0
     },
 
-    loginReactiveTime:{ type:Date }
+    loginReactiveTime:{ type:Date },
+
+    ssoAuth:{ googleId:{ type:String } }
   }
   ,{ 
     timestamps: { 

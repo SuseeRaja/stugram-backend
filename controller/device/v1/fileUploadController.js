@@ -6,9 +6,9 @@
 const fs = require('fs');
 const path = require('path');
 const formidable = require('formidable');
-const validUrl = require('valid-url');
+const AWS = require('aws-sdk');
+const AmazonS3URI = require('amazon-s3-uri');
 
-let defaultDirectory = 'public/assets';
 let allowedFileTypes = [
   'png',  'jpeg',
   'jpg',  'gif',
@@ -25,10 +25,8 @@ let maxFileSize = 5; //In Megabyte
  * @param {Object} res : response of file upload API.
  * @return {Object} : response of file upload. {status, message, data}
  */
-const upload = async (req, res) => {
+const upload = async (req,res) => {
   try {
-    // Create Directory if not exist.
-    await makeDirectory(defaultDirectory);
 
     // Setting up formidable options.
     const options = {
@@ -38,11 +36,9 @@ const upload = async (req, res) => {
     };
     const form = new formidable.IncomingForm(options);
 
-    //Upload File one by one
     const uploadFileRes = await new Promise(async (resolve, reject) => {
-
       form.parse(req, async function (error, fields, files) {
-
+        
         if (error) {
           reject(error);
         }
@@ -64,9 +60,7 @@ const upload = async (req, res) => {
         }
 
         for (let file of files['files']) {
-
-          let response = await uploadFiles(file, fields, fileCount++);
-
+          let response = await uploadFiles(file,fields,fileCount++);
           if (response.status == false) {
             uploadFailed.push({
               'name': file.originalFilename,
@@ -74,18 +68,14 @@ const upload = async (req, res) => {
               'status': false
             });
           } else {
-            let url = response.data;
-            if (!validUrl.isUri(response.data)) {
-              response.data = response.data.replace('/public', '');
-              url = `${response.data}`;
-            }
             uploadSuccess.push({
               'name': file.originalFilename,
-              'path': url,
+              'path': response.data,
               'status': true
             });
           }
         }
+
         resolve({
           uploadSuccess,
           uploadFailed
@@ -106,7 +96,7 @@ const upload = async (req, res) => {
         data: uploadFileRes
       });
     }
-  } catch (error) {
+  } catch (error){
     if (error.name && error.name == 'validationError') {
       return res.validationError({ message: error.message });
     } else {
@@ -116,23 +106,55 @@ const upload = async (req, res) => {
 };
 
 /**
- * @description : create directory to specified path
- * @param {string} directoryPath : location where directory will be created
- * @return {boolean} : returns true if directory is created or false
+ * @description : generate pre signed url for file
+ * @param {string} uri : url of file
+ * @return {Object} : response for generate pre signed url
  */
-const makeDirectory = async (directoryPath) => {
-
-  if (!fs.existsSync(directoryPath)) {
-    fs.promises.mkdir(directoryPath, { recursive: true }, (error) => {
-      if (error) {
-        return false;
+const generatePreSignedURL = async (req, res) => {
+  try {
+    if (req.body && req.body.uri){
+      let uri = req.body.uri;
+      let S3Config = {
+        AWS_S3_ACCESS_KEY_ID: process.env.AWS_S3_ACCESS_KEY_ID,
+        AWS_S3_SECRET_ACCESS_KEY: process.env.AWS_S3_SECRET_ACCESS_KEY,
+        AWS_S3_REGION: process.env.AWS_S3_REGION,
+        AWS_S3_BUCKET_NAME: process.env.AWS_S3_BUCKET_NAME,
       };
-      return true;
-    });
-  }
-  return true;
-};
 
+      const s3 = new AWS.S3({
+        region: S3Config.AWS_S3_REGION,
+        accessKeyId: S3Config.AWS_S3_ACCESS_KEY_ID,
+        secretAccessKey: S3Config.AWS_S3_SECRET_ACCESS_KEY
+      });
+
+      try {
+        const {
+          region, bucket, key
+        } = AmazonS3URI(uri);
+
+        let options = {
+          Bucket: bucket,
+          Key: key,
+          Expires: Number(process.env.AWS_URL_EXPIRATION) || 15 * 60 //in seconds,
+        };
+
+        await s3.getSignedUrl('getObject', options, (error, url) => {
+          if (error) {
+            return res.failure({ message: error });
+          } else {
+            return res.success({ data: url });
+          }
+        });
+      } catch (error) {
+        return res.failure({ message: `${uri} is not a valid S3 uri` });
+      }
+    } else {
+      return res.badRequest({ message : 'Insufficient request parameters! uri is required.' });
+    }
+  } catch (error) {
+    return res.internalServerError({ message:error.message }); 
+  }
+};
 /**
  * @description : upload files
  * @param {Object} file : file to upload
@@ -140,11 +162,7 @@ const makeDirectory = async (directoryPath) => {
  * @param {number} fileCount : total number of files to upload
  * @return {Object} : response for file upload
  */
-const uploadFiles = async  (file, fields, fileCount) => {
-
-  let tempPath = file.filepath;
-  let unlink;
-  let fileName = file.originalFilename;
+const uploadFiles = async (file,fields,fileCount) => {
 
   let extension = path.extname(file.originalFilename);
   extension = extension.split('.').pop();
@@ -167,65 +185,67 @@ const uploadFiles = async  (file, fields, fileCount) => {
     };
   }
 
-  //Create New path
-  let newPath = defaultDirectory + '/' + new Date().getTime() + path.extname(file.originalFilename);
-
+  let fileName = file.originalFilename;
   //Create Requested Directory,if given in request parameter.
   if (fields && fields.folderName) {
-    let newDir = defaultDirectory + '/' + fields.folderName;
-    const createDir = await makeDirectory(newDir);
-    if (createDir) {
-      if (fields.fileName) {
-        newPath = newDir + '/' + fields.fileName + '-' + fileCount + path.extname(file.originalFilename);
-        fileName = fields.fileName;
-      }
-    }
+    fileName = fields.folderName + '/' + fileName;
   }
   else if (fields && fields.fileName) {
-    newPath = defaultDirectory + '/' + fields.fileName + '-' + fileCount + path.extname(file.originalFilename);
-    fileName = fields.fileName;
+    fileName = fields.fileName + '-' + fileCount + path.extname(file.originalFilename);
   }
-  
+
   const response = await new Promise(async (resolve, reject) => {
-    fs.readFile(tempPath, function (error, data) {
-      fs.writeFile(newPath, data, async function (error) {
-  
-        //Remove file from temp
-        unlink = await unlinkFile(tempPath);
-  
-        if (unlink.status == false) {
-          reject(unlink);
-        } else {
-          resolve({
-            status: true,
-            message: 'File upload successfully.',
-            data: '/' + newPath
-          });
-        }
-      });
+    resolve(await uploadToS3(file,fileName));
+  });
+
+  return response;
+
+};
+/**
+ * @description : upload file to AWS s3
+ * @param {Object} file : file to upload
+ * @param {string} fileName : name of file
+ * @return {Object} : response for file upload to AWS s3
+ */
+const uploadToS3 = async (file, fileName) => {
+  let S3Config = {
+    AWS_S3_ACCESS_KEY_ID: process.env.AWS_S3_ACCESS_KEY_ID,
+    AWS_S3_SECRET_ACCESS_KEY: process.env.AWS_S3_SECRET_ACCESS_KEY,
+    AWS_S3_REGION: process.env.AWS_S3_REGION,
+    AWS_S3_BUCKET_NAME: process.env.AWS_S3_BUCKET_NAME,
+  };
+
+  const s3 = new AWS.S3({
+    region: S3Config.AWS_S3_REGION,
+    accessKeyId: S3Config.AWS_S3_ACCESS_KEY_ID,
+    secretAccessKey: S3Config.AWS_S3_SECRET_ACCESS_KEY
+  });
+
+  let params = {
+    Bucket: S3Config.AWS_S3_BUCKET_NAME,
+    Body: fs.createReadStream(file.filepath),
+    Key: fileName,
+  };
+
+  const response = await new Promise(async (resolve, reject) => {
+    s3.putObject(params, function (error, data) {
+      if (error) {
+        resolve({
+          status: false,
+          message: error.message
+        });
+      } else {
+        resolve({
+          status: true,
+          data: 'https://' + process.env.AWS_S3_BUCKET_NAME + '.s3.' + S3Config.AWS_S3_REGION + '.amazonaws.com/' + fileName
+        });
+      }
     });
   });
 
   return response;
 };
-
-/**
- * @description : unlink(delete) file from specified path
- * @param {string} path : location of file 
- * @return {Object} : return unlink file status {status, message}
- */
-const unlinkFile = async (path) => {
-
-  fs.unlink(path, function (error) {
-    if (error) {
-      return {
-        status: false,
-        message: error.message
-      };
-    }
-  });
-
-  return { status: true };
+module.exports = {
+  upload,
+  generatePreSignedURL
 };
-
-module.exports = { upload };
